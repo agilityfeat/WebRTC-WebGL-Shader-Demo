@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Libs -->
+  <script src="lib/pubnub-3.7.13.min.js"></script>
+  <script src="lib/three.min.js"></script>
+  <script src="lib/EdgeShader.js"></script>
+  <script src="lib/webrtc.js"></script>
+</head>
+<body>
+  <!-- Video Output Zone -->
+  <div id="video-out"></div>
+  <div><p class="right">My Number:&nbsp;</p><p><input type="text" id="my_number" placeholder="e.g. 1234"></p></div>
+  <div><p class="right">Friend's Number:&nbsp;</p><p><input type="text" id="friend_number" placeholder="e.g. 2345"></p></div>
+  <div id="buttons"><button onclick="start_phone()">Initialize Phone</button></div>
+
+  <!-- Scripts -->
+  <script src="js/video-effect.js"></script>
+  <script src="js/webrtc-phone-handler.js"></script>
+</body>
+</html>

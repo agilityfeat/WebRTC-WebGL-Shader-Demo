@@ -1,0 +1,7 @@
+html{margin:0;padding:0;}
+body{margin:0;padding:50px;background:#3780cd;font-family:sans-serif;font-size:18px;color:#fff;font-weight:bold;}
+div{text-align:center;padding:10px;}
+p{margin:0;padding:0;width:50%;display:inline-block;text-align:left;}
+p.right{text-align:right;}
+#video-out canvas{border:5px #62bb46 solid;}
+button{border:none;padding:10px;border-radius:3px;background:#fff;color:#62bb46;font-size:18px;font-weight:bold;}
